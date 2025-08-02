@@ -26,8 +26,3 @@ def chatbot():
             print("Sorry! I don't understand that. Please try asking something else.")
 
 chatbot()
-
-# Learnings:
-# Implemented **control flow statements** (`if`, `elif`, `else`) and **loops** (`while`) to manage chatbot behavior.
-# 2.Organized logic using **functions** to enhance **readability** and **reusability** of the code.
-# 3.Used basic **pattern matching** (e.g., keyword checking in input) to simulate intelligent user interaction.
