@@ -116,10 +116,3 @@ def play_game():
             break
 
 play_game()
-
-# Learning:
-# Recursive	Calls itself again for the next move until game over
-# Maximizer	Tries to get the highest score (AI wants to win)
-# Minimizer	Tries to get the lowest score (Human wants to stop AI)
-# Game Tree	It explores all possible moves like a tree of decisions
-# Backtracking	Makes a move, checks result, then undoes it to try another
