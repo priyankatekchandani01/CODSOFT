@@ -10,7 +10,7 @@ Welcome to my repository for the "CODSOFT Internship Program", where I’ve comp
     Task 4 : RECOMMENDATION SYSTEM
     Task 5 : FACE DETECTION AND RECOGNITION
 
-Learnings: 
+# Learnings: 
 Combined Learnings from Tasks 1, 2, and 5
 Through the completion of these tasks, I strengthened my understanding of both foundational and applied Python programming concepts:
 1. Core Programming & Logic
