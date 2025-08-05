@@ -6,7 +6,13 @@
 def print_board(board):
     print("\n")
     for i in range(3):
-        row = board[i*3:(i+1)*3]
+        row = []
+        for j in range(3):
+            index = i*3+j
+            if board[index] == " ":
+                row.append(str(index))
+            else:
+                row.append(board[index])
         print("|".join(row))
         if i<2:
             print("-"*5)
@@ -75,7 +81,6 @@ def play_game():
     print("Welcome to Tic-Tac-Toe")
     print("You are X.AI is O.")
     print("Enter positions from 0 to 8 as shown below: ")
-    print("0 | 1 | 2\n----------\n3 | 4 | 5\n----------\n6 | 7 | 8")
 
     while True:
         print_board(board)
